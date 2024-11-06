@@ -3,7 +3,7 @@ from user_agent import generate_user_agent
 from colorama import Fore
 os.system('clear')
 blue=Fore.BLUE;green=Fore.LIGHTGREEN_EX;red=Fore.RED;white=Fore.WHITE;yellow=Fore.YELLOW;black=Fore.LIGHTBLACK_EX;light_blue=Fore.LIGHTBLUE_EX;purble=Fore.LIGHTMAGENTA_EX;Baby_Blue=Fore.LIGHTCYAN_EX
-for P in open("cc.txt","r"):
+for P in open("ccs.txt","r"):
     n = P.split('|')[0]
     mm=P.split('|')[1]
     if int(mm) == 12 or int(mm) == 11 or int(mm) == 10:
