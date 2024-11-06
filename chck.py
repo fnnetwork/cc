@@ -36,7 +36,6 @@ expiration_date = datetime(2024, 11, 10, 5, 59)
 current_date = datetime.now()
 
 
-webbrowser.open('https://t.me/harmankapitara')
 print("🎉🎉🎉💵💵🟢💳💳")
 Z =  '\033[1;31m' 
 F = '\033[2;32m' 
